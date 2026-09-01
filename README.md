@@ -28,12 +28,12 @@
 **IOM** is a comprehensive, robust web-based management system designed specifically for car insurance offices (Third-Party Insurance). It streamlines daily operations, policy issuing, debt tracking, customer accounts, commission management, and real-time financial reporting.
 
 ## ✨ Key Features
-1. **Policy & Insurance Management:** Issue and track third-party insurance policies across various vehicle categories (SUVs, commercial trucks, rickshaws, buses, etc.) with automated premium calculations.
+1. **Policy & Insurance Management:** Issue and track third-party insurance policies across various vehicle categories with automated premium calculations.
 2. **Debt & Liabilities Tracking:** Monitor client dues and office debts with real-time balance aggregations and alerts.
 3. **Analytics Dashboard:** Visual charts and KPI metrics displaying top insurance categories, daily/weekly performance, and revenue growth.
 4. **Customer & Client Management:** Easily register, update, and manage customer records with local phone number validation and status toggling (Active/Inactive).
-5. **Insurance Categories & Commission Control:** Dynamic management of policy types, office commissions, agent commissions, and issuance fees (`cat.php`).
-6. **Account Statements & Messaging:** Generate short account statements and send invoices/notifications.
+5. **Insurance Categories & Commission Control (`cat.php`):** Dynamic management of policy types, office commissions, agent commissions, and issuance fees.
+6. **Account Statements & Messaging (`send_sms.php`):** Generate short account statements and send invoices/notifications.
 
 ## 🛠️ Tech Stack
 - **Backend:** Native PHP (PDO / MySQLi)
@@ -45,19 +45,19 @@
 
 | # | Interface / Screen | Description |
 |---|---|---|
-| 1 | `1.jpg` | **Login Screen:** Secure authentication portal for admin and authorized staff. |
-| 2 | `2.jpg` | **Policies & Debt Management:** Main dashboard table displaying insurance documents, statuses, and WhatsApp integration. |
-| 3 | `3.jpg` | **Add New Policy:** Form to input insured party details, vehicle category, and total premiums. |
-| 4 | `4.jpg` | **Success Alert:** Modal confirmation upon successfully saving policy records. |
-| 5 | `5.jpg` | **Updated Policy List:** Reflecting newly added policies in real-time. |
-| 6 | `6.jpg` | **Business Analytics Dashboard:** Overview cards showing revenue, total documents, and growth percentages. |
-| 7 | `7.jpg` | **Advanced Charts:** Visual breakdowns of top insurance categories, weekly performance, and debt statistics. |
-| 8 | `8.jpg` | **Third-Party Report Sheet:** Comprehensive printable financial summary and period filtering. |
-| 9 | `9.jpg` | **Daily Report (`report_today.php`):** Detailed breakdown of daily policies, installments, and commissions. |
-| 10 | `10.jpg` | **Client Management (`clients.php`):** Registering and managing customer profiles and phone contacts. |
-| 11 | `11.jpg` | **Insurance Categories Setup (`cat.php`):** Managing policy types, vehicle categories, office & agent commissions. |
-| 12 | `12.jpg` | **Category Editor View:** Dedicated interface for adding/editing insurance tiers and pricing. |
-| 13 | `13.jpg` | **Account Statement & SMS (`send_sms.php`):** Generating account summaries and sending automated billing details. |
+| 1 | `screenshot/1.jpg` | **Login Screen:** Secure authentication portal for admin and authorized staff. |
+| 2 | `screenshot/2.jpg` | **Policies & Debt Management:** Main dashboard table displaying insurance documents, statuses, and WhatsApp integration. |
+| 3 | `screenshot/3.jpg` | **Add New Policy:** Form to input insured party details, vehicle category, and total premiums. |
+| 4 | `screenshot/4.jpg` | **Success Alert:** Modal confirmation upon successfully saving policy records. |
+| 5 | `screenshot/5.jpg` | **Updated Policy List:** Reflecting newly added policies in real-time. |
+| 6 | `screenshot/6.jpg` | **Business Analytics Dashboard:** Overview cards showing revenue, total documents, and growth percentages. |
+| 7 | `screenshot/7.jpg` | **Advanced Charts:** Visual breakdowns of top insurance categories, weekly performance, and debt statistics. |
+| 8 | `screenshot/8.jpg` | **Third-Party Report Sheet:** Comprehensive printable financial summary and period filtering. |
+| 9 | `screenshot/9.jpg` | **Daily Report (`report_today.php`):** Detailed breakdown of daily policies, installments, and commissions. |
+| 10 | `screenshot/10.jpg` | **Client Management (`clients.php`):** Registering and managing customer profiles and phone contacts. |
+| 11 | `screenshot/11.jpg` | **Insurance Categories Setup (`cat.php`):** Managing policy types, vehicle categories, office & agent commissions. |
+| 12 | `screenshot/12.jpg` | **Category Editor View:** Dedicated interface for adding/editing insurance tiers and pricing. |
+| 13 | `screenshot/13.jpg` | **Account Statement & SMS (`send_sms.php`):** Generating account summaries and sending automated billing details. |
 
 ## 🚀 Installation & Setup
 1. Clone or download this repository.
