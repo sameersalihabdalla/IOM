@@ -1,0 +1,170 @@
+/* تعريف الخطوط */
+@font-face {
+  font-family: "myfont";
+  src: url(myfont3.ttf);
+  font-weight: normal;
+}
+
+/* الإعدادات الأساسية للجسم */
+body {
+  font-family: "myfont", Arial, sans-serif;
+  background: linear-gradient(135deg, #f7fafc, #edf2f7);
+  color: #2d3748;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+/* تنسيق التنبيهات */
+.alert {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background-color: #ebf8ff;
+  border: 1px solid #bee3f8;
+  color: #2b6cb0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  font-weight: 400;
+}
+
+/* العناوين والتسميات */
+.form-wrap h1,
+.form-wrap .form-label {
+  font-weight: 600;
+  color: #1a365d;
+}
+
+/* تنسيق الروابط والأزرار */
+.xx a {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #2b6cb0;
+  font-weight: 500;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.xx a:hover {
+  background: linear-gradient(135deg, #2b6cb0, #1a365d);
+  color: #fff;
+  border-color: #1a365d;
+  box-shadow: 0 4px 12px rgba(43, 108, 176, 0.3);
+  transform: translateY(-2px);
+}
+
+/* عنوان المنتج */
+.prod_lbl {
+  background: linear-gradient(90deg, #2d3748, #1a365d);
+  color: #fff;
+  width: 100%;
+  height: 35px;
+  line-height: 35px; /* تم استبدال padding-top بـ line-height لتوسيط النص عمودياً بدقة */
+  text-align: center;
+  font-weight: 600;
+  border-radius: 8px;
+  letter-spacing: 1px;
+}
+
+/* حاوية المنتج */
+.prod_div {
+  margin: 8px 0;
+  padding: 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.prod_div:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* حقول الإدخال الخاصة بالمنتج */
+.prod_input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  background-color: #fcfcfc;
+  transition: all 0.3s ease;
+}
+
+.prod_input:focus {
+  background-color: #fff;
+  border-color: #2b6cb0;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(43, 108, 176, 0.25);
+}
+
+/* شريط التنقل (Navbar) الموحد */
+.navbar, 
+.custom-navbar {
+  background: linear-gradient(90deg, #1a365d, #2b6cb0, #4299e1) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 0.5rem 1rem;
+}
+
+.navbar .nav-link,
+.custom-navbar .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  margin: 0 6px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.navbar .nav-link:hover,
+.custom-navbar .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-brand,
+.custom-navbar .navbar-brand {
+  color: #fff !important;
+  font-size: 0.95rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand:hover,
+.custom-navbar .navbar-brand:hover {
+  transform: scale(1.05);
+}
+
+/* زر تسخيل الخروج */
+.logout-link {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  border-radius: 8px !important;
+  padding: 6px 14px !important;
+  color: #fff !important;
+}
+
+.logout-link:hover {
+  background-color: #e53e3e !important;
+  border-color: #e53e3e !important;
+  box-shadow: 0 0 10px rgba(229, 62, 62, 0.6) !important;
+}
+
+/* تنسيق النماذج وعناصر التحكم العامة */
+.form-control {
+  font-size: 15px;
+  color: #2d3748;
+  border: 1px solid #a0aec0;
+  border-radius: 8px;
+  padding: 8px 12px;
+  background-color: #fff;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-control:focus {
+  border-color: #2b6cb0;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(43, 108, 176, 0.25);
+}
